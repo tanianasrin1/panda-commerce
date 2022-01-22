@@ -9,3 +9,26 @@
 .panda-bg-slide {
   background-color: #feeae9;
 }
+
+.box {
+  width: 500px;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.box > i {
+  font-size: 20px;
+  color: #777;
+}
+
+.box > input {
+  flex: 1;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
